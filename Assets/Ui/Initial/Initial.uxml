@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; justify-content: center; align-items: center; flex-direction: column; background-color: rgba(0, 0, 0, 0.46);">
+        <ui:VisualElement>
+            <ui:Label tabindex="-1" text="Number of players" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+            <ui:SliderInt high-value="6" low-value="2" show-input-field="true" direction="Horizontal" inverted="false" name="NumberOfPlayers" />
+        </ui:VisualElement>
+        <ui:Button text="Ready" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Ready" style="margin-top: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>
